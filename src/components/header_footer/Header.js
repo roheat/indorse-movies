@@ -12,10 +12,10 @@ class Header extends React.Component {
 			<AppBar
 				position="fixed"
 				style={{
-					backgroundColor: '#1F2823',
+					backgroundColor: '#081C24',
 					boxShadow: 'none',
 					padding: '10px 0',
-					borderBottom: '2px solid #D10022'
+					borderBottom: '2px solid #01D277'
 				}}
 			>
 				<Toolbar style={{ display: 'flex'}}>
