@@ -166,3 +166,30 @@ footer a:hover {
   text-align: center;
   padding: 60px 60px;
 }
+
+/*=============================
+            PEOPLE
+===============================*/
+
+.people_table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.people_table td {
+  padding: 30px 70px;
+  margin: 10px;
+}
+
+.people_table .view {
+  width: 80px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #01D277;
+  font-size: 14px;
+  padding: 7px 15px;
+  cursor: pointer;
+}

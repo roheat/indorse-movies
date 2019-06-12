@@ -1,20 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const MovieRow = (props) => {
-	const poster_src = `https://image.tmdb.org/t/p/w185${props.movie.poster_path}`;
+const PeopleRow = (props) => {
+	const poster_src = `https://image.tmdb.org/t/p/w185${props.actor.profile_path}`;
 	const rowBackground = props.child % 2 === 0 ? '#f8f8f8' : '#ffffff';
 
 	return (
-		<table className="movie_table">
+		<table className="people_table">
 			<tbody>
 				<tr style={{ background: rowBackground }}>
 					<td>
 						<img alt="poster" width="120" src={poster_src} />
 					</td>
 					<td>
-						<h3>{props.movie.title}</h3>
-						<p>{props.movie.overview}</p>
+						<h3>{props.actor.name}</h3>
 						<Link to={props.linkTo}>
 							<div className="view">
 								View Details
@@ -27,4 +26,4 @@ const MovieRow = (props) => {
 	);
 };
 
-export default MovieRow;
+export default PeopleRow;
