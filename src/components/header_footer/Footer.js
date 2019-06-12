@@ -14,7 +14,7 @@ class Footer extends React.Component {
 					/>
 				</div>
 				<div className="footer_disclaimer">
-					MovieDB. All Rights Reserved.
+					TheMovieDB. All Rights Reserved.
 				</div>
 				<div className="footer_credits">
 					Created with <div className="heart"></div> by <a target="_blank" rel="noopener noreferrer" href="https://github.com/roheat/indorse-movies">roheat</a>.
