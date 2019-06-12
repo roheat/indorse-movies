@@ -16,7 +16,7 @@ const PeopleRow = (props) => {
 						<h3>{props.actor.name}</h3>
 						<Link to={props.linkTo}>
 							<div className="view">
-								View Details
+								View More
 							</div>
 						</Link>
 					</td>

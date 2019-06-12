@@ -30,7 +30,7 @@ class PeopleView extends React.Component {
 	}
 
 	render() {
-		console.log(this.state.actors)
+
 		return (
 			<div className="container">
 				<h1 style={{ marginTop: '150px' }}>Most Popular Actors and Actresses</h1>

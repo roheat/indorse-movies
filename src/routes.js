@@ -7,6 +7,7 @@ import MovieDetails from './components/movie_details';
 import PopularMovies from './components/popular_movies';
 import TrendingMovies from './components/trending_movies';
 import PeopleView from './components/people';
+import PeopleDetails from './components/people_details';
 
 const Routes = () => {
 	return (
@@ -17,6 +18,7 @@ const Routes = () => {
 				<Route path='/movie/trending' exact component={TrendingMovies} />
 				<Route path='/movie/:id' component={MovieDetails} />
 				<Route path='/people' exact component={PeopleView} />
+				<Route path='/people/:id' component={PeopleDetails} />
 			</Switch>
 		</Layout>	
 	);
