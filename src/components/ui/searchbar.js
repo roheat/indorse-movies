@@ -3,10 +3,12 @@ import React from 'react';
 const SearchBar = (props) => {
 	return (
 		<div className="searchbar">
-			<input 
+			<input
+				value={props.value}
+				onChange={props.onChange}
 				placeholder="Enter a movie name"
 			/>
-			<i class="material-icons">search</i>
+			<i className="material-icons">search</i>
 		</div>
 	);
 };
