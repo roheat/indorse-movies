@@ -167,6 +167,21 @@ footer a:hover {
   padding: 60px 60px;
 }
 
+.extra {
+  display: inline;
+  width: 100%;
+}
+
+.facts {
+  width: 50%;
+  float: left;
+}
+
+.credits {
+  float: right;
+  width: 50%;
+}
+
 /*=============================
             PEOPLE
 ===============================*/
