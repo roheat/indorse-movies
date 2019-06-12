@@ -114,3 +114,32 @@ footer a:hover {
   top: -5px;
   left: 0;
 }
+
+/*=============================
+            MOVIE ROW
+===============================*/
+
+.movie_table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.movie_table td {
+  padding: 30px 70px;
+  margin: 10px;
+}
+
+.movie_table .view {
+  width: 80px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #01D277;
+  font-size: 14px;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+
+

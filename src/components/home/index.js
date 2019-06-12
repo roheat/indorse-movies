@@ -12,8 +12,13 @@ class MoviesHome extends React.Component {
 
 	renderMovieRows = (movies) => {
 
-		return movies.map((movie) => (
-			<MovieRow movie={movie} key={movie.id} />
+		return movies.map((movie, i) => (
+			<MovieRow 
+				movie={movie} 
+				key={movie.id} 
+				child={i}
+				linkTo={`/movies/${movie.id}`} 
+			/>
 		))
 	}
 
