@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import { Link } from 'react-router-dom';
 
 class MovieDetails extends React.Component {
 	
@@ -45,7 +46,9 @@ class MovieDetails extends React.Component {
 		return credits.map(credit => {
 			return (
 				<div key={credit.id}>
-					<p>{credit.name}</p>
+					<Link to={`/people/${credit.id}`}>
+						<p className="credit_name">{credit.name}</p>
+					</Link>
 				</div>
 			);
 		})
