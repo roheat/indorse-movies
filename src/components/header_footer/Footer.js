@@ -9,7 +9,7 @@ class Footer extends React.Component {
 					<MovieDBLogo
 						link={true}
 						linkTo="/"
-						width="70px"
+						width="80px"
 						height="70px"
 					/>
 				</div>

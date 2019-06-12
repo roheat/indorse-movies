@@ -21,6 +21,45 @@ a {
     background-size: cover !important;
 }
 
+.container {
+  height: 700px;
+  margin: 120px auto 0 auto;
+  width: 1000px;
+}
+
+/*=============================
+            SEARCH BAR
+===============================*/
+
+.searchbar {
+  display: flex;
+  font-size: 18px;
+  width: 100%;
+  padding-top: 6px;
+  padding-left: 16px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+
+.searchbar input {
+  width: 100%;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.searchbar input::placeholder {
+  color: #bababa;
+}
+
+.searchbar i {
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
 /*=============================
             HEADER FOOTER
 ===============================*/
