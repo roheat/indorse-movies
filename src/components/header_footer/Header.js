@@ -33,7 +33,7 @@ class Header extends React.Component {
 					<Link to="/movie/popular">
 						<Button color="inherit">Popular</Button>
 					</Link>
-					<Link to="/movie/latest">
+					<Link to="/movie/trending">
 						<Button color="inherit">Trending</Button>
 					</Link>
 					<Link to="/people">

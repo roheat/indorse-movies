@@ -5,7 +5,7 @@ import Layout from './components/hoc/Layout';
 import MoviesHome from './components/home';
 import MovieDetails from './components/movie_details';
 import PopularMovies from './components/popular_movies';
-
+import TrendingMovies from './components/trending_movies';
 
 const Routes = () => {
 	return (
@@ -13,6 +13,7 @@ const Routes = () => {
 			<Switch>
 				<Route path='/' exact component={MoviesHome} />
 				<Route path='/movie/popular' exact component={PopularMovies} />
+				<Route path='/movie/trending' exact component={TrendingMovies} />
 				<Route path='/movie/:id' component={MovieDetails} />
 			</Switch>
 		</Layout>	
