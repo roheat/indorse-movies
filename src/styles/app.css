@@ -116,7 +116,7 @@ footer a:hover {
 }
 
 /*=============================
-            MOVIE ROW
+            MOVIE
 ===============================*/
 
 .movie_table {
@@ -142,4 +142,27 @@ footer a:hover {
   cursor: pointer;
 }
 
+.movie_show {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
 
+.movie_show td {
+  padding: 30px 70px;
+  margin: 10px;
+}
+
+.back_btn {
+  display: flex;
+  color: #01D277;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 150px;
+  cursor: pointer;
+}
+
+.progress {
+  text-align: center;
+  padding: 60px 60px;
+}

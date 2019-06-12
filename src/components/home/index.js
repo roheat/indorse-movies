@@ -17,7 +17,7 @@ class MoviesHome extends React.Component {
 				movie={movie} 
 				key={movie.id} 
 				child={i}
-				linkTo={`/movies/${movie.id}`} 
+				linkTo={`/movie/${movie.id}`} 
 			/>
 		))
 	}
