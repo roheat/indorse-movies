@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchBar from '../ui/searchbar';
 import axios from 'axios';
-import MovieRow from './MovieRow';
+import MovieRow from '../ui/movie_row';
 
 class MoviesHome extends React.Component {
 	

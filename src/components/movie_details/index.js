@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
 class MovieDetails extends React.Component {
@@ -51,12 +50,10 @@ class MovieDetails extends React.Component {
 
 		return (
 			<div className="container">
-				<Link to="/">
-					<div className="back_btn">
-						<i class="material-icons">keyboard_backspace</i>
-						Back
-					</div>
-				</Link>
+				<div className="back_btn" onClick={() => this.props.history.goBack()}>
+					<i className="material-icons">keyboard_backspace</i>
+					Back
+				</div>
 				{
 					!loading ?
 						<table className="movie_show">
