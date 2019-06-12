@@ -6,7 +6,7 @@ import MoviesHome from './components/home';
 import MovieDetails from './components/movie_details';
 import PopularMovies from './components/popular_movies';
 import TrendingMovies from './components/trending_movies';
-import People from './components/people';
+import PeopleView from './components/people';
 
 const Routes = () => {
 	return (
@@ -16,7 +16,7 @@ const Routes = () => {
 				<Route path='/movie/popular' exact component={PopularMovies} />
 				<Route path='/movie/trending' exact component={TrendingMovies} />
 				<Route path='/movie/:id' component={MovieDetails} />
-				<Route path='/people' exact component={People} />
+				<Route path='/people' exact component={PeopleView} />
 			</Switch>
 		</Layout>	
 	);

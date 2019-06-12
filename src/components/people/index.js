@@ -3,7 +3,7 @@ import axios from 'axios';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import PeopleRow from './PeopleRow';
 
-class People extends React.Component {
+class PeopleView extends React.Component {
 	state = {
 		actors: [],
 		loading: true
@@ -47,4 +47,4 @@ class People extends React.Component {
 	}
 }
 
-export default People;
+export default PeopleView;
