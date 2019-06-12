@@ -8,19 +8,22 @@ import PopularMovies from './components/popular_movies';
 import TrendingMovies from './components/trending_movies';
 import PeopleView from './components/people';
 import PeopleDetails from './components/people_details';
+import ScrollToTop from './components/ui/scroll_to_top';
 
 const Routes = () => {
 	return (
-		<Layout>
-			<Switch>
-				<Route path='/' exact component={MoviesHome} />
-				<Route path='/movie/popular' exact component={PopularMovies} />
-				<Route path='/movie/trending' exact component={TrendingMovies} />
-				<Route path='/movie/:id' component={MovieDetails} />
-				<Route path='/people' exact component={PeopleView} />
-				<Route path='/people/:id' component={PeopleDetails} />
-			</Switch>
-		</Layout>	
+		<ScrollToTop>
+			<Layout>
+				<Switch>
+					<Route path='/' exact component={MoviesHome} />
+					<Route path='/movie/popular' exact component={PopularMovies} />
+					<Route path='/movie/trending' exact component={TrendingMovies} />
+					<Route path='/movie/:id' component={MovieDetails} />
+					<Route path='/people' exact component={PeopleView} />
+					<Route path='/people/:id' component={PeopleDetails} />
+				</Switch>
+			</Layout>
+		</ScrollToTop>
 	);
 };
 

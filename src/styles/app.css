@@ -22,8 +22,9 @@ a {
 }
 
 .container {
-  min-height: 600px;
-  margin: 120px auto 0 auto;
+  height: 100%;
+  min-height: 320px;
+  margin: 120px auto 0px auto;
   width: 1000px;
 }
 
@@ -77,6 +78,7 @@ footer {
     font-size: 16px;
     color: #ffffff;
     padding: 30px 0px;
+    margin-top: 90px;
 }
 
 footer .img_cover{

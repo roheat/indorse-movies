@@ -45,7 +45,7 @@ class MovieDetails extends React.Component {
 		return credits.map(credit => {
 			return (
 				<div key={credit.id}>
-					<p>{credit.character}</p>
+					<p>{credit.name}</p>
 				</div>
 			);
 		})
